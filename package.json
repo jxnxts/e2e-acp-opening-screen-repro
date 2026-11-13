@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node repro.mjs && node late-rejection.mjs --fatal",
+    "test:late": "node late-rejection.mjs --fatal"
+  },
+  "dependencies": {
+    "e2e": "0.23.1",
+    "@e2e-dev/acp": "0.1.2",
+    "@agentclientprotocol/sdk": "2.6.0",
+    "@modelcontextprotocol/client": "2.4.0"
+  }
+}
